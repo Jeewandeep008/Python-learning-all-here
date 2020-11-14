@@ -1,5 +1,6 @@
 # webiste - https://code.visualstudio.com/docs/languages/python
-
+# https://www.jetbrains.com/help/pycharm/configuring-colors-and-fonts.html#semantic-highlighting
+from math import *
 # v6 = 'Strings'
 # print(v6)
 
@@ -72,53 +73,6 @@
 
 # # gm(input('What is your name: ' and 'Your fav game:'))
 # gm(input('What is your name:'), input('Your fav game:'))
-
-# >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
-
-# Binary calculator Part 1 - bmi
-#  WORKING PERFECTLY
-
-# def calculation(val_1, operator, val_2):
-    
-#     if operator == '+':
-#         # operator.add()
-#         print('Add = ', float(val_1) + float(val_2))
-#     elif operator == '-':
-#         # operator.sub()
-#         print('Sub = ', float(val_1) - float(val_2))
-#     elif operator == '*':
-#         # operator.mul()
-#         print('Mul = ', float(val_1) * float(val_2))
-#     elif operator == '/':
-#         # operator.div()
-#         print('Div = ', float(val_1) / float(val_2))
-#     elif operator == '**':
-#         # operator.pow()
-#         print('Power off = ', float(val_1) ** float(val_2))
-#     elif operator == '%':
-#         # operator.mod()
-#         print('Mode = ', val_1 % val_2)
-#     else:
-#         print('Error: Invalid Details Provided. Try again.')
-
-# calculation(input('Type your first number: '), input('Type eg: +,- etc: '), input('Type your second number: '))
-
-# def calci(num_1, operator, num_2):
-#     if operator == '+'or operator == '-' or operator == '*' or operator == '/' or operator == '**' or operator == '%':
-#         print('Add = ', float(num_1) + float(num_2))
-#         print('Sub = ', float(num_1) - float(num_2))
-#         print('Mul = ', float(num_1) * float(num_2))
-#         print('Div = ', float(num_1) / float(num_2))
-#         print('Power off = ', float(num_1) ** float(num_2))
-#         print('Mod = ', float(num_1) % float(num_2))
-#         print('Absolute/ADD = ', abs(float(num_1) + float(num_2)))
-#         print('Round_up/ADD = ', round(float(num_1) + float(num_2)))
-#     else:
-#         print('Error: Invalid Details Provided. Try again.')
-
-# calci(input('Type your first number: '), input('Type eg: +,- etc: '), input('Type your second number: '))
-
-# >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 
 # Others
 # ran_1 = 4
@@ -239,46 +193,7 @@
 #     break
 #   print(x)
 
-# Candies
-def part1():
-# if else statements
-    machine_counts = 1
-    user_wants = input('How many candies do you want : ')
-    user_wants = int(user_wants)
-    num_of_candies = 80
-    if  user_wants > num_of_candies:
-        print('You can only buy',num_of_candies, 'Candies from this machine.')
 
-    elif machine_counts <= int(user_wants) and not(num_of_candies):
-        print('Candies', machine_counts)
-        machine_counts += 1
-    elif user_wants < num_of_candies:
-        print('You have received', user_wants , 'Candies. And the remaining Candies are',num_of_candies - user_wants,'.')
-    else:
-        user_wants == num_of_candies
-        print('You have received', user_wants , 'Candy.')
-        print('The machine is now out of stock')
-# print(part1())
-
-# or
-# While loop >>>>>>>>>>>>>>> CODE NOT WORKING PROPERLY YET
-def part2():
-    count = 1
-    user = input('Number of chocobar : ')
-    user = int(user)
-    total_choco = 100
-    while user > total_choco and user == total_choco:
-        print('You can only buy', total_choco,'chocobars.')
-
-    if count <= user:
-        print('You have received', user,'chocobars. Please come again.')
-        count += 1
-    # elif count < total_choco:
-    #     print('You have received', user,'chocobars. Please come again.')
-    else:
-        user == total_choco
-        print('You have received',user,' & the stock is now over.')
-# print(part2())
 # >>>>
 # i = 1# initialization
 # while i <= 5: # condition
@@ -340,46 +255,7 @@ def part2():
 
 # mod_mod(input('Type your first value: '), input('Type your second value: '))
 
-# IF Else elseif or elif
 
-# def tester(name):
-#     baby = 'baby'
-#     child = 'child'
-#     teenager = 'teenager'
-#     male = 'male'
-#     female = 'female'
-#     married = 'married'
-#     single = 'single'
-#     # child = True
-#     # teenager = True
-#     # male = True
-#     # female = True
-#     # married = True
-#     # single = True
-#     gender = input('What is your gender: ')
-#     gender = gender.lower()
-#     # # type_of = type(gender)
-#     # # print(type_of)
-#
-#     if gender == male:
-#         print('You are a male.')
-#     elif gender == female:
-#         print('You are a female.')
-#     elif gender == baby:
-#         print('You are a baby. Really !!')
-#     elif gender == teenager:
-#         print('You are a teenager.')
-#     elif gender == child:
-#         print('You are still a child.')
-#     elif gender == married:
-#         print('You are a married.')
-#     elif gender == single:
-#         print('You are a single.')
-#     else:
-#         print('Error: Wrong informaion provided.')
-
-# print(tester(input('Type your name: ')))
-# print(tester('Jeewan'))
 
 # BULLIAN
 
