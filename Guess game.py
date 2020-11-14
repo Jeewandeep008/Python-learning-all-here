@@ -24,3 +24,17 @@ def guess_game(s_no):
         print('You won the GAME !')
 
 # print(guess_game('coco'))
+
+# Unlimited guesses
+def guess_game_1(secret_no):
+    # The secret code will be stored here
+    secret_name = secret_no
+    user_guess = ""
+    # Condition
+    while user_guess != secret_name:
+        user_guess = input('What is chocolate made of? : ')
+
+    else:
+        print('You won the Game !!')
+
+print(guess_game_1('coco'))
