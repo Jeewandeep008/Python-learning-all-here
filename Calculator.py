@@ -44,3 +44,12 @@
 # calci(input('Type your first number: '), input('Type eg: +,- etc: '), input('Type your second number: '))
 
 # >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+# MOD CALCULATOR
+
+# def mod_mod(num1, num2):
+#     value = round(float(num1) % float(num2))
+#     # value = float(num1) % float(num2)
+#     print(value)
+
+# mod_mod(input('Type your first value: '), input('Type your second value: '))
