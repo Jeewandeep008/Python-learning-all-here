@@ -6,9 +6,10 @@
 # for a in L:
 # print(a)
 
-nuum = range(10)
-for a in nuum:
-    print(a)
+# nuum = range(10)
+# nuum = range(1, 11)
+# for a in nuum:
+#     print(a)
 
 
 # part 1
