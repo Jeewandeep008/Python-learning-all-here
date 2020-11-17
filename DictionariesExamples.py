@@ -239,4 +239,14 @@ def add_new_dic():
     # d = {2 = '100', 3 = '500', 4 = '1000'}
     # new_dic.update(d)
     print(new_dic)
-add_new_dic()
+# add_new_dic()
+
+# 2 datas in the same KEY
+# puting a list inside a key of a dictionary as a value
+# doma = {1 : ['Hola','Bhola']}
+# print(doma)
+
+# Put a dictionary under a key of a dictionary as a value
+kito = {2 : {'Maruti', 'Toyota'}}
+print(type(kito))
+print(kito)
