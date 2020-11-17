@@ -1,5 +1,5 @@
 #STRINGS
-# can reffer to this - https://www.programiz.com/python-programming/methods/string/center
+# can refer to this - https://www.programiz.com/python-programming/methods/string/center
 # https://www.w3schools.com/python/ref_string_index.asp
 
 u = 'youtube'
