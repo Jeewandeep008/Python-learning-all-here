@@ -162,11 +162,74 @@ def multiplcation_2():
 # else:
 #   print("i is no longer less than 6")
 
-#  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> >>>>>>>>>>>>>>>>>>>>> >>>>>>>>>>>>>>>>>>>>
+# >>>>>>>>>>>>>>>>>>>. OTHER EXAMPLES >>>>>>>>>>>>>>>>>>>>
+# https://www.w3schools.com/python/python_lists_comprehension.asp
+# Loop Through a List
+# thislist = ["apple", "banana", "cherry"]
+# for x in thislist:
+#   print(x)
+
+# Loop Through the Index Numbers
+# thislist = ["apple", "banana", "cherry"]
+# for i in range(len(thislist)):
+#   print(thislist[i])
+
+# Using a While Loop
+# thislist = ["apple", "banana", "cherry"]
+# i = 0
+# while i < len(thislist):
+#   print(thislist[i])
+#   i = i + 1
+
+# Looping Using List Comprehensive
+# thislist = ["apple", "banana", "cherry"]
+# [print x for x in thislist]
+
+# List Comprehension >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+# fruits = ["apple", "banana", "cherry", "kiwi", "mango"]
+# newlist = []
+#
+# for x in fruits:
+#   if "a" in x:
+#     newlist.append(x)
+#
+# print(newlist)
+
+# or
+
+# fruits = ["apple", "banana", "cherry", "kiwi", "mango"]
+# # Note: new var x , for the var x in fruits if the string 'a' is present in x
+# newlist = [x for x in fruits if "a" in x]
+#
+# print(newlist)
+#  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> >>>>>>>>>>>>>>>>>>>>>
 
 # iteration
 # condition
 # Compilation
 # Execute
 # indentation
-#
+#  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> >>>>>>>>>>>>>>>>>>>>>
+
+# Vouels phrase LOOP with for loop
+
+def vow(phrase):
+    identifier = ''
+    for letter in phrase:
+        if letter in 'aeiouAEIOU':
+            print('This letter has vowel -', letter)
+        else:
+            print('This letter does not have vowels -', letter )
+
+vow(input('Type phrase: '))
+
+def vow_1(phrase):
+    identifier = ''
+    for letter in phrase:
+        if letter in 'aeiouAEIOU':
+            identifier = identifier +
+            print('This letter has vowel -', letter)
+        else:
+            print('This letter does not have vowels -', letter )
+
+vow_1(input('Type phrase: '))

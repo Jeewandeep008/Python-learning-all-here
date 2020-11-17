@@ -1,11 +1,7 @@
 # webiste - https://code.visualstudio.com/docs/languages/python
 # https://www.jetbrains.com/help/pycharm/configuring-colors-and-fonts.html#semantic-highlighting
 from math import *
-# v6 = 'Strings'
-# print(v6)
 
-# s1 = 'Jeewan' 'Deep' 'Tete'
-# print(s1)
 
 # n1 = 'Jeewan'
 # age1 = '26'
@@ -110,13 +106,6 @@ from math import *
 # print(cube(5,2))
 # print(cube(5,5))
 # print(cube(5,10))
-
-
-
-
-
-
-
 
 
 
