@@ -248,5 +248,5 @@ def add_new_dic():
 
 # Put a dictionary under a key of a dictionary as a value
 kito = {2 : {'Maruti', 'Toyota'}}
-print(type(kito))
-print(kito)
+# print(type(kito))
+# print(kito)
