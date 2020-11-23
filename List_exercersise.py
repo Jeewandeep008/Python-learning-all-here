@@ -2,11 +2,11 @@
 # Websites -
 
 # Normal way >>>>
-a = [1,2,3,4,5,6]
-print(a)
-print('len', len(a))
-print('index', a.index(1))
-print(a.index(6))
+# a = [1,2,3,4,5,6]
+# print(a)
+# print('len', len(a))
+# print('index', a.index(1))
+# print(a.index(6))
 # x = map(, a)
 # a = list(x)
 # print(a)
@@ -51,10 +51,10 @@ print(a.index(6))
 # Use map(function, iterable) with a list of strings as iterable and int as function to
 # apply int() to each string in the list.
 # Use list(iterable) with the output of map() as iterable to convert to a list.
-om = ['2', '9', '8', '4', '9']
-new_om = map(int, om) #Maps each string to an int
-om = list(new_om) # Converts mapped output to a list of ints
-print(om)
+# om = ['2', '9', '8', '4', '9']
+# new_om = map(int, om) #Maps each string to an int
+# om = list(new_om) # Converts mapped output to a list of ints
+# print(om)
 
 # Even number >>> remender = 0
 # m1 = [i for i in range(11) if i%2 == 0 ]
