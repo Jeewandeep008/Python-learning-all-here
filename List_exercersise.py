@@ -1,5 +1,5 @@
 # Creating list the faster way
-# Websites -
+# Websites -https://www.programiz.com/python-programming/list-comprehension
 
 # Normal way >>>>
 # a = [1,2,3,4,5,6]
@@ -45,12 +45,13 @@
 # convert_to_str_final = [str(i) for i in range(6)]
 # print(convert_to_str_final)
 
-# Convert a pre-written list with string into integer >>>>>>>>>>>>>>>>>>
+# Convert a pre-written list with string into integer >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 # https://www.kite.com/python/answers/how-to-convert-a-list-of-strings-to-ints-in-python
 # USE map() TO CONVERT A LIST OF STRINGS TO INTS
 # Use map(function, iterable) with a list of strings as iterable and int as function to
 # apply int() to each string in the list.
 # Use list(iterable) with the output of map() as iterable to convert to a list.
+
 # om = ['2', '9', '8', '4', '9']
 # new_om = map(int, om) #Maps each string to an int
 # om = list(new_om) # Converts mapped output to a list of ints
