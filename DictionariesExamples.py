@@ -293,7 +293,7 @@ kito = {2 : {'Maruti', 'Toyota'}}
 # dictionary.update(1 = 'two') >> does not work
 # print(dictionary)
 
-# 3rd way to upate
+# 3rd way to update
 
 # dictionary['1'] = 100
 # dictionary['10'] = 100
